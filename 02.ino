@@ -19,7 +19,7 @@ void setup() {
   // 遞減
   Serial.println("decrease");
   j = 0;
-  for(i = 5; i > -1; i--) //上一個for迴圈已經到 i = 5 所以此迴圈的初值與中止值要小心設定。
+  for (i = 5; i > -1; i--) //上一個for迴圈已經到 i = 5 所以此迴圈的初值與中止值要小心設定。
   {
     j = j + 1;  //j為迴圈的執行次數
     pinMode(LED[i], OUTPUT);
